@@ -14,8 +14,8 @@ function ListForm({ handleOnAdd }) {
     }
     return (
         <div>
-            <input type="text" value={text} onChange={handleOnChange} />
-            <button onClick={handleAddTask}>Add</button>
+            <input className='border-2 border-black w-5/6 h-9 ' type="text" value={text} onChange={handleOnChange} />
+            <button onClick={handleAddTask} className='bg-blue-400 w-1/12 rounded-r h-9'>Add</button>
 
 
         </div>
